@@ -1,0 +1,49 @@
+{
+    "language": {
+        "en": "English",
+        "th": "Thai"
+    },
+    "loginPage": {
+        "email": "Email/Phone ",
+        "mobileNumber":"Phone",
+        "password": "Password",
+        "or": "or",
+        "continueWith": "Continue with ",
+        "login": "Login",
+        "forgotPassword": "Forgot Password?",
+        "noAccount": "Don't have an account?",
+        "signUp": "Sign Up",
+        "emailInvalidError": "Email is invalid",
+        "rememberMe": "Remember me",
+        "phoneInvalidError":"Invalid phone number",
+        "captchaInvalidError": "This need to be checked"
+        
+    },
+    "signupPage": {
+        "name":"Name",
+        "email": "Email Address",
+        "mobileNumber":"Phone Number",
+        "password": "Password",
+        "confirpassword":"Confirm Password",
+        "signup": "Sign Up",
+        "continueWith": "Continue with ",
+        "nameInvalidError":"Cannot be empty",
+        "emailInvalidError": "Email is invalid",
+        "confirpasswordError": "Password must match",
+        "phoneInvalidError":"Invalid phone number",
+        "or":"or"
+    },
+    "forgotPassword": {
+        "name":"Name",
+        "email": "Email Address",
+        "mobileNumber":"Phone Number",
+        "password": "Password",
+        "confirpassword":"Confirm Password",
+        "signup": "Sign Up",
+        "nameInvalidError":"Cannot be empty",
+        "emailInvalidError": "Email is invalid",
+        "confirpasswordError": "Password must match",
+        "phoneInvalidError":"Invalid phone number",
+        "captchaInvalidError": "This need to be checked"
+    }
+}

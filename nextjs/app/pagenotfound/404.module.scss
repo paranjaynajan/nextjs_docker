@@ -1,0 +1,99 @@
+
+.backdrop{
+  background-color: #000;
+  height: 100vh;
+   background-image: url('../../assets/images/notfound.jpeg');
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+  width: 30rem;
+  height: auto ;
+  display: inline-block;
+  border-radius: 20px; 
+  box-shadow: 
+  0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 20px 0 rgba(0, 0, 0, 0.19), 
+  0 0 15px 5px rgba(0, 0, 0, 0.4);
+  animation-name: slideFromTop;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+
+    // img{
+    //         width: 500px;   
+    //   }
+        .heading{
+         
+            text-align: center;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 115.08px;
+            color: #5D544F; 
+          
+      
+    }
+
+    .subHeading{
+      margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+        font-size:20px;
+        color: #5D544F;
+       
+       
+    }
+    .pageNotFoundButton {
+        margin-top: 40px;
+        background-color:black;
+        border: none;
+        width: 400px;
+        border-radius: 50px;
+        color: #fff;
+        padding: 10px 0px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 15px;
+        &:hover {
+          color: #000000;
+          background-color: #dddddd;
+          border: 0px solid black
+        }
+      }
+    
+  }
+
+ /* Small screens */
+@media (max-width: 576px) {
+  .backdrop{
+    padding: 0px 10px;
+    .container {
+      /* Adjust styles for small screens */
+
+      .pageNotFoundButton {
+        width: 200px;
+        padding: 8px 20px;
+        font-size: 20px;
+      }
+    }
+  }}
+  
+  /* Medium screens */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .container {
+    
+   
+      .pageNotFoundButton {
+        width: 250px;
+        padding: 12px 30px;
+        font-size: 22px;
+      }
+    }
+  }
+ 

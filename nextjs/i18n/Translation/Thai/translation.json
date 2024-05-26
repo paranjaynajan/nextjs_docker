@@ -1,0 +1,45 @@
+{
+    "language": {
+        "en": "ภาษาอังกฤษ",
+        "th": "แบบไทย"
+    },
+    "loginPage": {
+        "email": "อีเมล",
+        "password": "รหัสผ่าน",
+        "or": "หรือ",
+        "continueWith": "ดำเนินการต่อด้วย ",
+        "login": "เข้าใช้งาน",
+        "forgotPassword": "ลืมรหัสผ่าน?",
+        "noAccount": "ยังไม่มีบัญชี?",
+        "signUp": "ลงชื่อ",
+        "emailInvalidError": "อีเมล์ไม่ถูกต้อง",
+        "rememberMe":"จดจำฉัน"
+    },
+    "signupPage":  {
+        "name": "ชื่อ",
+        "email": "ที่อยู่อีเมล",
+        "continueWith": "ดำเนินการต่อด้วย ",
+        "mobileNumber": "หมายเลขโทรศัพท์",
+        "password": "รหัสผ่าน",
+        "confirpassword": "ยืนยันรหัสผ่าน",
+        "signup": "ลงทะเบียน",
+        "nameInvalidError": "ไม่สามารถเว้นว่างได้",
+        "emailInvalidError": "ที่อยู่อีเมลไม่ถูกต้อง",
+        "confirpasswordError": "รหัสผ่านต้องตรงกัน",
+        "or":"หรือ"
+      },
+      "forgotPassword": {
+        "name": "ชื่อ",
+        "email": "ที่อยู่อีเมล",
+        "mobileNumber": "หมายเลขโทรศัพท์",
+        "password": "รหัสผ่าน",
+        "confirpassword": "ยืนยันรหัสผ่าน",
+        "signup": "ลงทะเบียน",
+        "nameInvalidError": "ไม่สามารถเว้นว่างได้",
+        "emailInvalidError": "ที่อยู่อีเมลไม่ถูกต้อง",
+        "phoneInvalidError": "หมายเลขโทรศัพท์ไม่ถูกต้อง",
+        "captchaInvalidError": "นี่ต้องถูกต้อง"
+    }
+    
+      
+}
