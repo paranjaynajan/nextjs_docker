@@ -6,7 +6,7 @@ function Page({params}:{params:{id:string}}) {
     return notFound()
   }
   return (
-    <div>Review no. {params.id}</div>
+    <div>User{params.id}</div>
   )
 }
 
