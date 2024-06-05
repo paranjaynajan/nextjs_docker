@@ -1,6 +1,9 @@
 import React from 'react'
 
-function Review() {
+async function Review() {
+  const result = await new Promise<void>((resolve, reject) => {
+    setTimeout(() => {resolve()},3000)
+  })
   return (
     <div>Review</div>
   )
