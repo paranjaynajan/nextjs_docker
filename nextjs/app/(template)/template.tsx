@@ -7,15 +7,15 @@ function Page({ children }: { children: React.ReactNode }) {
     const [text, setText] = useState("")
     const currentPath =usePathname()
     const pathUrl = [{
-        path: "/about",
-        title: "About"
+        path: "/views",
+        title: "Views"
     }, {
-        path: "/contact",
-        title: "Contact"
+        path: "/rating",
+        title: "Rating"
     }]
     return (
         <>
-            <h1 className='text-[30px]'>Layout in which state is preserved</h1>
+            <h1 className='text-[30px]'>Template in which state is not preserved</h1>
             <div><input value={text} onChange={(e) => setText(e.target.value)} /></div>
             <div>
                 <ul className='cursor-pointer'>
