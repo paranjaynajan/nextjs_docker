@@ -9,10 +9,10 @@ function getRandomInt(max: number) {
 function Views() {
   const random = getRandomInt(2);
   console.log(random,"random")
-  if (random === 1) {
+  // if (random === 1) {
     
-    throw new Error("Error loading view");
-  }
+  //   throw new Error("Error loading view");
+  // }
   return (
     <div>Views Component</div>
   )

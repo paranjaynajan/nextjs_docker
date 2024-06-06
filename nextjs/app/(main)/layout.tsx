@@ -16,7 +16,7 @@ function Page({ children }: { children: React.ReactNode }) {
     return (
         <>
             <h1 className='text-[30px]'>Layout in which state is preserved</h1>
-            <div><input value={text} onChange={(e) => setText(e.target.value)} /></div>
+            <div> <input value={text} onChange={(e) => setText(e.target.value)} /></div>
             <div>
                 <div className='cursor-pointer'>
                     {pathUrl.map((path,idx) => {
