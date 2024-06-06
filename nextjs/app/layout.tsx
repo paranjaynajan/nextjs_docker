@@ -21,7 +21,9 @@ export default function RootLayout({
      
       <body className={inter.className}>
       <Header/>
+      <div className="h-[100vh]">
         {children}
+      </div>
         <Footer/>
         </body>
      

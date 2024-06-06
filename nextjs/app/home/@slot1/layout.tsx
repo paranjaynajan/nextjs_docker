@@ -17,7 +17,6 @@ function page({children}:{children:React.ReactNode}) {
     return (<>
     
         <div>
-            slot1
             <div>
                 <div className='cursor-pointer'>
                     {pathUrl.map((path, idx) => {
